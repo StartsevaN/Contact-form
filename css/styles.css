@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+.conteiner {
+  max-width: 482px;
+  margin: 0 0 0 98px;
+  padding: 106px 16px 50px;
+  background: #f2f2f2;
+}
+
+h2 {
+  margin: 0 0 17px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+	font-family:inherit;
+	color:#333;
+}
+
+textarea[placeholder],
+input[placeholder] {
+	color: #999999;
+}
+
+.form-txt,
+.form-field {
+	display:block;
+  width:100%;
+  font-family:inherit;
+  color:#333;
+  font-size:16px;
+  line-height:21px;
+  padding:10px 2px;
+  box-sizing: border-box;
+  border: 1px solid #a9a9a9;
+  background:#fff;
+  margin: 0 0 13px;
+}
+
+.form-txt {
+	min-height:209px;
+	overflow:auto;
+}
+
+.form-btn {
+	box-sizing: border-box;
+	border: 1px solid #a9a9a9;
+	font-size: 14px;
+	line-height: 21px;
+	background: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 117px;
+	padding: 9px 3px;
+	color:#333;
+	cursor:pointer;
+}
+
+.form .choices__inner {
+	box-sizing: border-box;
+	background:#fff;
+	border: 1px solid #a9a9a9;
+	padding:10px 2px;
+	border-radius: 0;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.form .choices__list--single {
+	padding:0;
+}
+
+.form .choices__list--dropdown .choices__item--selectable {
+	font-size: inherit;
+	padding:10px 2px;
+}
+
+.form .choices__list--dropdown {
+	border: 1px solid #a9a9a9;
+  box-sizing: border-box;
+}
+
+.form .choices {
+	margin: 0 0 13px;
+}
+
+.error {
+	border: 1px solid #f00;
+}

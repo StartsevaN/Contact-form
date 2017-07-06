@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/choices.min.css">
+</head>
+<body>
+  <div class="conteiner">
+    <link rel="stylesheet" href="/css/master.css">
+    <h2>Kontakt</h2>
+    <form id="contactForm" action="" method="post" class="form js-form">
+        <input placeholder="Name" name="name" type="text" tabindex="1" class="form-field">
+        <input placeholder="Email" name="email" type="email" tabindex="2" class="form-field">
+        <input placeholder="Phone Number" name="phone" type="tel" tabindex="3" class="form-field">
+        <input placeholder="Company" name="company" type="text" tabindex="4" class="form-field">
+        <select tabindex="5" class="form-field" data-trigger name="choices-single-default" id="choices-single-default">
+          <option selected>This is a placeholder</option>
+          <option value="Dropdown item 1">Dropdown item 1</option>
+          <option value="Dropdown item 2">Dropdown item 2</option>
+          <option value="Dropdown item 3">Dropdown item 3</option>
+        </select>
+        <textarea placeholder="Type your Message Here...." tabindex="6" class="form-txt"></textarea>
+        <div class="form-row">
+          <button name="submit" type="submit" class="form-btn js-submit-btn">Send</button>
+        </div>
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="scripts/choices.min.js" charset="utf-8"></script>
+  <script src="scripts/jquery.validate.min.js" charset="utf-8"></script>
+  <script src="scripts/all.js" charset="utf-8"></script>
+</body>
+</html>
